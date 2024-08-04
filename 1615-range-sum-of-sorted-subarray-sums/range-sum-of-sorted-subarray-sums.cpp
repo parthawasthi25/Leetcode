@@ -2,9 +2,9 @@ class Solution {
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) {
         vector<int>ss;
-        int Mod=1e9+7;
-        int cs;
-        int sum=0;
+        long long Mod=1e9+7;
+        long long cs;
+        long long sum=0;
         for(int i=0;i<n;i++){
             cs=nums[i];
             ss.push_back(cs);
