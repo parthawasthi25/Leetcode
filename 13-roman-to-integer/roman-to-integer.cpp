@@ -1,8 +1,8 @@
 class Solution {
 public:
     int romanToInt(string s) {
-    long long ans = 0;
-    vector<long long> roman(128);
+    int ans = 0;
+    vector<int> roman(128);
     roman['I'] = 1;
     roman['V'] = 5;
     roman['X'] = 10;
