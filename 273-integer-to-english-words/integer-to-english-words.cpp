@@ -5,7 +5,7 @@ public:
     vector<string> tens;
     vector<string> teens;
     template <typename Iter>
-    string join(Iter begin, Iter end, std::string const& separator)
+    std::string join(Iter begin, Iter end, std::string const& separator)
     {
         std::ostringstream result;
         result.precision(2);
