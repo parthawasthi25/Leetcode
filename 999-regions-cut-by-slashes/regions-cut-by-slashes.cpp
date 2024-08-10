@@ -15,8 +15,8 @@ public:
           g[i * 3 + 2][j * 3 + 2] = 1;
         }
     int ans = 0;
-    for (int i = 0; i < n * 3; i++)
-      for (int j = 0; j < n * 3; j++)
+    for (int i = 0; i < n * 3; ++i)
+      for (int j = 0; j < n * 3; ++j)
         if (g[i][j] == 0) {
           dfs(g, i, j);
           ++ans;
